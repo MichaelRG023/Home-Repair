@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "./NavBar";
-import Services from "./Services";
-import HomeRepair from "./HomeRepair";
+
 
 function Home() {
 

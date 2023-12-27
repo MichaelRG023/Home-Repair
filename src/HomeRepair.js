@@ -1,9 +1,13 @@
+import { useEffect, useState } from "react";
 
 function HomeRepair(){
+    const[repairs,setRepairs] = useState([])
 
-    fetch("http://localhost:3000/Repairs")
+    useEffect(()=> {
+    fetch("http://localhost:3030/Repairs")
     .then(response=>response.json())
-    .then(data => console.log(data))
+    .then(data=>setRepairs(data))
+     },[])
 
     
 
@@ -11,7 +15,14 @@ function HomeRepair(){
 
     return(
         <div>
-
+            {repairs.map((repaired)=>(
+                <div key={repaired.id}>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                 
+                </div>  
+                 ))}
         </div>
     )
 }
