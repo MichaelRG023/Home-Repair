@@ -1,24 +1,28 @@
 {
-    "Repairs": {
-      "1": {
+    "Repairs": [
+       {
+        "id":1,
         "name": "High-Quality",
         "image":"https://media.istockphoto.com/id/923181140/photo/man-changing-lightbulb.jpg?s=1024x1024&w=is&k=20&c=RjQuOGz4aRp9JR5o2E0OxQBO_08iZ5WL9mmEHa-BsSU=",
         "text":"We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience"
       },
-      "2": {
+       {
+        "id":"2",
         "name": "Professionalsim",
         "image":"https://carpetcave.com/wp-content/uploads/2022/02/install-baseboards-for-carpet-960x480.jpg",
         "text":"Our repair experts are professionals with an average of 10 years of trade experience. While you'll find that each of our repair pros behave and communicate professionally."
       },
-      "3":{
+      {
+        "id":"3",
         "name": "Flexibility",
         "image":"https://us.images.westend61.de/0000941189pw/smiling-man-painting-wall-in-apartment-BSZF00428.jpg",
         "text":"You don't have to pay the most to get great work. Because each home repair project is unique, we create a customized plan that fits each customers specific needs and expectations."
      },
-     "4":{
+     {
+        "id":"4",
         "name":"Courteous",
         "image":"https://image1.masterfile.com/getImage/NjEwNS0wNTM5NjEzNGVuLjAwMDAwMDAw=APoVZL/6105-05396134en_Masterfile.jpg",
         "text":"We see this as an opportunity to save our customers time, energy, and fustration. Our customers also appreciate the timely communication we provide regarding their questions and concerns."
      }
-    }
+    ]
   }

@@ -22,9 +22,10 @@ function App(){
           />
         </Routes>
 
-      </Router>
-      <Services/>
+      </Router> 
       <HomeRepair/>
+      <Services/>
+     
     </>
     
   )

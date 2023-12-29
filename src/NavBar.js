@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import{
+    FaBars,
+    FaTimes,
+} from 'react-icons/fa'
 
 function NavBar(){
+    const [nav, setNav] = useState(false);
+    const handleClick=()=>setNav(!nav);
 
 
 return(
 <div>
-    <li>
-        <Link to="home">
+    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo"/>
+    <p>
+        <Link to="/">
             Home
         </Link>
 
-    </li>
-    <li>
+    </p>
+    <p>
         <Link to="Contact">
             Contact
         </Link>
 
-    </li>
+    </p>
+    <div onClick={handleClick} className="">
+        {!nav ?<FaBars/>: <FaTimes/>}
+    </div>
+
 
 </div>
 )
