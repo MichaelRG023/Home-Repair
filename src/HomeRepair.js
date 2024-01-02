@@ -18,12 +18,12 @@ function HomeRepair(){
 
     return(
         <div>
-            <h1>Why Choose Our Company For Your Home Repairs?</h1>
+            <h1 className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">Why Choose Our Company For Your Home Repairs?</h1>
             <p>We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
             {repair.map(repaired=> (
                 <div key={repaired.id}>
                     <h2>{repaired.name}</h2>
-                    <img src={repaired.image}/>
+                    <img src={repaired.image} alt="nice"/>
                     <p>{repaired.text}</p>
                 </div>
             ))}
