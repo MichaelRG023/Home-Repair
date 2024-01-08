@@ -12,7 +12,12 @@ function NavBar(){
 
 return(
 <div>
-    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo"/>
+    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo" />  
+     
+     <div onClick={handleClick} className="">
+         {!nav ?<FaBars/>: <FaTimes/>}
+     </div>
+     
     <p>
         <Link to="/">
             Home
@@ -23,14 +28,9 @@ return(
         <Link to="Contact">
             Contact
         </Link>
-
     </p>
-    <div onClick={handleClick} className="">
-        {!nav ?<FaBars/>: <FaTimes/>}
-    </div>
-
-
 </div>
+
 )
 
 }
