@@ -17,7 +17,7 @@ function HomeRepair(){
 
 
     return(
-        <div className="bg-amber-500 py-10 m-auto flex  align-middle flex-wrap gap-11">
+        <div className="bg-amber-600 py-10 m-auto flex  align-middle flex-wrap gap-11 flex ">
             <br></br>
             <br></br>
             <h1 className="font-bold text-3xl">Why Choose Our Company For Your Home Repairs?</h1>
