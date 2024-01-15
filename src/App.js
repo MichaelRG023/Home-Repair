@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import HomeRepair from "./HomeRepair";
 import Services from "./Services";
 import NavBar from "./NavBar";
+import ProfessionalServices from "./ProfessionalServices";
 
 
 function App(){
@@ -25,6 +26,7 @@ function App(){
       </Router> 
       <HomeRepair/>
       <Services/>
+      <ProfessionalServices/>
      
     </>
     
