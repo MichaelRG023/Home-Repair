@@ -17,22 +17,17 @@ function HomeRepair(){
 
 
     return(
-        <div className="bg-amber-600 py-10 m-auto flex  align-middle flex-wrap gap-11 flex ">
-            <br></br>
-            <br></br>
-            <h1 className="font-bold text-4xl">Why Choose Our Company For Your Home Repairs?</h1>
-            <p className="text-xl">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
+        <div className="bg-zinc-900 py-10 m-auto flex  align-middle flex-wrap gap-11 flex ">
+            <h1 className="font-bold text-6xl h-20 text-gray-200">Why Choose Our Company For Your Home Repairs?</h1>
+            <p className="text-xl text-gray-200">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
             {repair.map(repaired=> (
-                <div key={repaired.id} className="card border p-3 w-[330px] shadow-lg flex-row">
+                <div key={repaired.id} className="card border p-3 w-[330px] shadow-lg flex-row bg-gray-200">
                     <img src={repaired.image} alt="nice"/>
-                    <h2 className="font-bold text-2xl">{repaired.name}</h2>
+                    <h2 className="font-bold text-2xl ">{repaired.name}</h2>
                     <p className="text-xl">{repaired.text}</p>
-                   
-                </div>
+             </div>
             ))}
-            
-         
-        </div>
+     </div>
     )
 }
 

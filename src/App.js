@@ -20,9 +20,9 @@ function App(){
           <Route exact path="/" element={<Home/>}
           />
           <Route path="/contact" element={<Contact/>}
-          />
+          /> 
         </Routes>
-
+       
       </Router> 
       <HomeRepair/>
       <Services/>

@@ -23,7 +23,7 @@ function Home() {
             <p className="text-3xl"> Find amazing home repair services made for you. We'll connect you to our repair professionals. </p>
             
                 <button onClick={handleClick} className="h-12 px-6 m-2 text-lg text-black-700 transition-colors duration-150 bg-yellow-900 rounded-lg focus:shadow-outline hover:bg-gray-400">Contact Us </button>
-                        
+                
         </div>
     )
 }
