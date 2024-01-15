@@ -20,7 +20,7 @@ function HomeRepair(){
         <div className="bg-amber-600 py-10 m-auto flex  align-middle flex-wrap gap-11 flex ">
             <br></br>
             <br></br>
-            <h1 className="font-bold text-3xl">Why Choose Our Company For Your Home Repairs?</h1>
+            <h1 className="font-bold text-4xl">Why Choose Our Company For Your Home Repairs?</h1>
             <p className="text-xl">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
             {repair.map(repaired=> (
                 <div key={repaired.id} className="card border p-3 w-[330px] shadow-lg flex-row">

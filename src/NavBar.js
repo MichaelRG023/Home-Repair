@@ -12,8 +12,8 @@ function NavBar(){
 
 return(
 <div className="bg-amber-600 ">
-    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo" className="h-auto max-w-xs" />  
-     
+    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo" className="h-auto max-w-xs bg-gradient-to-tl from-blue-500 to-cyan-500" />  
+        
      <div onClick={handleClick}>
          {!nav ?<FaBars/>: <FaTimes/>}
      </div>
