@@ -11,19 +11,19 @@ function NavBar(){
 
 
 return(
-<div className="bg-amber-600 ">
-    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo" className="h-auto max-w-xs bg-gradient-to-tl from-blue-500 to-cyan-500" />  
-        <div onClick={handleClick}>
+<div className="bg-zinc-950 h-40 ">
+    <img src="https://t3.ftcdn.net/jpg/00/79/67/48/360_F_79674837_Jn4HbqZGciL1jMeobbM6xNOUUjen936J.jpg" alt="Company logo" className="h-24 max-w-xs bg-gradient-to-tl from-blue-500 to-cyan-500" />  
+        <div className="text-slate-50"onClick={handleClick}>
          {!nav ?<FaBars/>: <FaTimes/>}
       </div>
        <p>
-         <Link to="/" className="text-blue-600 hover:text-blue-800 visited:text-purple-600 w-full h-[80px] flex justify-between items-center hidden md:flex ">
+         <Link to="/" className="text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
             Home
          </Link>
 
       </p>
        <p>
-         <Link to="Contact" className="text-blue-600 hover:text-blue-800 visited:text-purple-600 w-full h-[80px] flex justify-between items-center hidden md:flex ">
+         <Link to="Contact" className="text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
             Contact
          </Link>
       </p>
