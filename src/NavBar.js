@@ -16,17 +16,17 @@ return(
         <div className="text-slate-50"onClick={handleClick}>
          {!nav ?<FaBars/>: <FaTimes/>}
       </div>
-       <p>
-         <Link to="/" className="text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
-            Home
-         </Link>
-
-      </p>
-       <p>
-         <Link to="Contact" className="text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
-            Contact
-         </Link>
-      </p>
+         <nav className="absolute top-0 right-0">
+            <Link to="/" className=" flex pl-9 md:pl-0 text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
+              Home
+            </Link> 
+              <Link to="Contact" className="text-slate-50 hover:text-blue-800  w-full h-[80px] flex justify-between items-center hidden md:flex ">
+                 Contact
+              </Link>
+         </nav>
+       
+      
+        
 </div>
 
 )
