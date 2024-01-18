@@ -10,13 +10,13 @@ function Home() {
     }
 
     return(
-        <div className="bg-slate-200">      
+        <div className="">      
             <h1 className="font-bold text-left text-7xl">
             Home Repair Service
              </h1>
              <br></br>
               <img 
-                className="h-auto max-w-6xl "
+                className="h-auto max-w-6xl xl:bg-transparent "
             src="https://img.freepik.com/premium-photo/young-happy-african-man-construction-worker-smiling-while-giving-peace-sign_251136-39636.jpg?w=1380"
             alt="smiling construction worker"
            />
