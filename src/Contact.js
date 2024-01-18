@@ -10,7 +10,7 @@ function Contact(){
  // h-12 height to 48px
 
     return(
-        <div className="bg-amber-600">
+        <div className="bg-gray-300">
             <h1 className="text-gray-900 text-xl">Send us a message</h1>
                 <p className="text-gray-800 px-1 max-w-md">Email us using our simple form and we'll respond within 10 working days</p>
                 <form className="">

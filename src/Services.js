@@ -3,19 +3,19 @@ function Services(){
 
 
     return(
-        <div className="bg-amber-600 space-y-10">
+        <div className="bg-zinc-900 space-y-10 text-white">
             
             <h1 className="font-bold text-6xl">Our Services</h1>
-            <h2 className="font-bold text-4xl">Carpentry </h2>
-            <p className="text-xl ">
+            <h2 className="font-bold text-4xl ">Carpentry </h2>
+            <p className="text-xl text-white ">
                 Our Carpernters are highly Skilled Workers who dedicate their time with providing the best frameworks and structures made from wood and other materials
                 </p> 
-             <h2 className="font-bold text-4xl"> Flooring</h2>
-             <p className="text-xl ">
+             <h2 className="font-bold text-4xl "> Flooring</h2>
+             <p className="text-xl">
                 Our flooring Specailist install carpeting,
                  vinyl flooring,tile,hardwood and laminate.
                 </p>
-             <h2 className="font-bold text-4xl">Painting</h2>
+             <h2 className="font-bold text-4xl ">Painting</h2>
              <p className="text-xl">
                  Our painters help transform homes and businesses. They mantain a clean space by covering funiture, flooring and crown molding before they start painting.
                 Our painters understands color and have a keen eye for coloring as well.
