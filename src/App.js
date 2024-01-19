@@ -1,10 +1,10 @@
-import Home from "./Home";
+import Home from "./component/Home";
 import { BrowserRouter as Router, Route, Routes  } from "react-router-dom";
-import Contact from "./Contact";
-import HomeRepair from "./HomeRepair";
-import Services from "./Services";
-import NavBar from "./NavBar";
-import ProfessionalServices from "./ProfessionalServices";
+import Contact from "./component/Contact";
+import HomeRepair from "./component/HomeRepair";
+import Services from "./component/Services";
+import NavBar from "./component/NavBar";
+import ProfessionalServices from "./component/ProfessionalServices";
 
 
 function App(){

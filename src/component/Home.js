@@ -10,7 +10,7 @@ function Home() {
     }
 
     return(
-        <div className="h">      
+        <div className="">      
             <h1 className="font-bold text-left text-7xl">
             Home Repair Service
              </h1>
