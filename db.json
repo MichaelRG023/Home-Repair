@@ -30,5 +30,22 @@
       "image":"https://media.istockphoto.com/id/1406414052/photo/couple-man-deal-woman-contract-business-agent-agreement-estate-investment-consultant-meeting.jpg?s=2048x2048&w=is&k=20&c=uO_OhDZZZVSYIMCFge_AsdAm_3g5KRCMJjFfZqCCMX8=",
       "text":"We are so confident in our clients satisfaction, that if you don't feel we did not provide the right job, we will redo your home rennovation for free."
      }
+    ],
+
+    "Comments":[
+      {
+        "id": "0",
+        "name":"Joseph",
+        "reviews":"This Company deserves more than five stars. I believe this is one of the best home repair company there is! I will be doing more businesses with them garantuee.",
+        "rating":"5"
+
+      },
+      {
+        "id": "1",
+        "name" : "Danny",
+        "reviews": "I am pleased with their work for sure. It is a bit expensive, however it is all worth it in the end.",
+        "rating": "3"
+      }
+
     ]
   }
