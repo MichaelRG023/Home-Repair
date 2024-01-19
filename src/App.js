@@ -5,6 +5,7 @@ import HomeRepair from "./component/HomeRepair";
 import Services from "./component/Services";
 import NavBar from "./component/NavBar";
 import ProfessionalServices from "./component/ProfessionalServices";
+import Reviews from "./component/Reviews";
 
 
 function App(){
@@ -27,6 +28,7 @@ function App(){
       <HomeRepair/>
       <Services/>
       <ProfessionalServices/>
+      <Reviews/>
      
     </>
     
