@@ -15,15 +15,16 @@ useEffect(()=>{
 },[])
 console.log("review:",review[2])
 
+const starData =()=>{
 
+}
 // spread operator  === "..."
 
 
 
     return(
-        <div className="bg-zinc-900 py-10 flex-wrap flex gap-x-10">
-            <h1 className="font-bold text-5xl h-20 text-gray-200">Our Reviews</h1>
-            <p>Here are our feedback from our happy customers</p>
+        <div className="bg-zinc-900 py-20 flex-wrap flex gap-x-12">
+            {/* <h1 className="font-bold text-6xl text-gray-200">Our Reviews</h1> */}
             {review.map(reviews => ( 
                 <div className="w-[340px] shadow-lg bg-gray-200" key={reviews.id}>
                     <h2 className="font-bold text-2xl text-center">{reviews.name}</h2>
