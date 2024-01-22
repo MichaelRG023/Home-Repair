@@ -17,14 +17,15 @@ function HomeRepair(){
 
 
     return(
-        <div className="bg-zinc-900 py-10 flex-wrap flex gap-x-2 gap-y-10 ">
+        <div className="bg-zinc-900 py-10 flex-wrap flex gap-x-10 ">
             <h1 className="font-bold text-6xl h-20 text-gray-200">Why Choose Our Company For Your Home Repairs?</h1>
-            <p className="text-xl text-gray-200">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
-            {repair.map(repaired=> (
-                <div key={repaired.id} className="card border p-3 w-[330px] shadow-lg flex-row bg-gray-200">
+            <p className="text-3xl h-32 text-gray-200">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
+            {repair.map(repaired => (
+                <div key={repaired.id} className=" w-[300px] shadow-lg bg-gray-200">
                     <img src={repaired.image} alt="nice"/>
-                    <h2 className="font-bold text-2xl ">{repaired.name}</h2>
-                    <p className="text-xl">{repaired.text}</p>
+                    <h2 className="font-bold text-2xl text-center ">{repaired.name}</h2>
+                    <p className="text-xl italic">{repaired.text}</p>
+                    <br></br>
              </div>
             ))}
      </div>

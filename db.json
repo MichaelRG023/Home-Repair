@@ -4,7 +4,7 @@
         "id":1,
         "name": "High-Quality",
         "image":"https://media.istockphoto.com/id/923181140/photo/man-changing-lightbulb.jpg?s=1024x1024&w=is&k=20&c=RjQuOGz4aRp9JR5o2E0OxQBO_08iZ5WL9mmEHa-BsSU=",
-        "text":"We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience"
+        "text":"We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on our experience."
       },
        {
         "id":"2",
@@ -37,14 +37,33 @@
         "id": "0",
         "name":"Joseph",
         "reviews":"This Company deserves more than five stars. I believe this is one of the best home repair company there is! I will be doing more businesses with them garantuee.",
-        "rating":"5"
+        "rating":"5 stars"
 
       },
       {
         "id": "1",
         "name" : "Danny",
-        "reviews": "I am pleased with their work for sure. It is a bit expensive, however it is all worth it in the end.",
-        "rating": "3"
+        "reviews": "I am pleased with their work for sure. It is a bit expensive, however it is all worth it.",
+        "rating": "3 stars"
+      },
+      {
+        "id": "2",
+        "name": "Matthew",
+        "reviews": "At first I had doubts If I would like the results. They weren't a well known company. However, I am so glad that I was wrong! They showed me the steps on what was going to happen to my house in layman's term, were very open on what the procedure was and met my expectations greatly.",
+        "rating":"4 stars"
+      },
+      {
+        "id": "3",
+        "name": "Jeison",
+        "reviews":"This will be a test on how it would look.",
+        "rating":"4 stars"
+      },
+      {
+        "id": "4",
+        "name": "Jonathan",
+        "reviews":"Also Test too about something to pass the time I need to see how it'll look with more words right now since it looks too small",
+        "rating":"5 stars"
+
       }
 
     ]

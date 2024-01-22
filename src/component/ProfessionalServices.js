@@ -15,31 +15,31 @@ function ProfessionalServices(){
              <li className="border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">
                    <input id="vue-checkbox" type="checkbox" value="" className="w-11 h-40  text-blue-600 bg-gray-100"></input>
-                   <label for="vue-checkbox" className="font-bold text-xl">Emergency Repairs</label>
+                   <label htmlFor="vue-checkbox" className="font-bold text-xl">Emergency Repairs</label>
                </div>
             </li>
            <li className="w-lg  border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">
                     <input id="vue-checkbox" type="checkbox" value=""className="w-9 h-40 text-blue-600 bg-gray-100"></input>
-                    <label for="vue-checkbox" className="font-bold text-xl"> Electrical Repair</label>
+                    <label htmlFor="vue-checkbox" className="font-bold text-xl"> Electrical Repair</label>
                 </div> 
             </li>
            <li className="w-lg border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">
                     <input id="vue-checkbox" type="checkbox" value=""className="w-9 h-40 text-blue-600 bg-gray-100"></input>
-                    <label for="vue-checkbox" className="font-bold text-xl">Circuit Breakers</label>
+                    <label htmlFor="vue-checkbox" className="font-bold text-xl">Circuit Breakers</label>
                </div> 
            </li>
            <li className="w-lg  border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">
                    <input id="vue-checkbox" type="checkbox" value=""className="w-9 h-40 text-blue-600 bg-gray-100"></input>
-                   <label for="vue-checkbox" className="font-bold text-xl">Ceiling Fans</label>
+                   <label htmlFor="vue-checkbox" className="font-bold text-xl">Ceiling Fans</label>
              </div> 
            </li>
            <li className="w-lg  border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">
                     <input id="vue-checkbox" type="checkbox" value=""className="w-9 h-40 text-blue-600 bg-gray-100"></input>
-                    <label for="vue-checkbox" className="font-bold text-xl"> Generators</label>
+                    <label htmlFor="vue-checkbox" className="font-bold text-xl"> Generators</label>
              </div> 
            </li>
         </ul>

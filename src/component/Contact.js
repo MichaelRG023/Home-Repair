@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Contact(){
     const [email,setEmail] = useState('')
-
+    
 
 
  // h-12 height to 48px
