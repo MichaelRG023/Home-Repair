@@ -15,12 +15,14 @@ useEffect(()=>{
 },[])
 console.log("review:",review[2])
 
-const starData =()=>{
 
-}
+
+
+console.log("starData:",starData)
 // spread operator  === "..."
 
 
+ // ffc107 is going to be yellow color 
 
     return(
         <div className="bg-zinc-900 py-20 flex-wrap flex gap-x-12">
