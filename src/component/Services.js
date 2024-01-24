@@ -3,11 +3,11 @@ function Services(){
 
 
     return(
-        <div className="bg-zinc-900 space-y-10 text-white">
+        <div className="bg-slate-300 space-y-10 py-4 ">
             
             <h1 className="font-bold text-6xl">Our Services</h1>
             <h2 className="font-bold text-4xl ">Carpentry </h2>
-            <p className="text-2xl text-white ">
+            <p className="text-2xl ">
                 Our Carpernters are highly Skilled Workers who dedicate their time with providing the best frameworks and structures made from wood and other materials
                 </p> 
              <h2 className="font-bold text-4xl "> Flooring</h2>
