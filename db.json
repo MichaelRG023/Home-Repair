@@ -36,33 +36,33 @@
       {
         "id": "0",
         "name":"Joseph",
-        "reviews":"This Company deserves more than five stars. I believe this is one of the best home repair company there is! I will be doing more businesses with them garantuee.",
-        "rating":"5 stars"
+        "reviews":"This company deserves more than five stars. I believe this is one of the best home repair company there is! I will be doing more businesses with them garantuee.",
+        "rating":"⭐⭐⭐⭐⭐"
 
       },
       {
         "id": "1",
         "name" : "Danny",
         "reviews": "I am pleased with their work for sure. It is a bit expensive, however it is all worth it.",
-        "rating": "3 stars"
+        "rating": "⭐⭐⭐"
       },
       {
         "id": "2",
         "name": "Matthew",
         "reviews": "At first I had doubts If I would like the results. They weren't a well known company. However, I am so glad that I was wrong! They showed me the steps on what was going to happen to my house in layman's term, were very open on what the procedure was and met my expectations greatly.",
-        "rating":"4 stars"
+        "rating":"⭐⭐⭐⭐"
       },
       {
         "id": "3",
         "name": "Jeison",
-        "reviews":"This will be a test on how it would look.",
-        "rating":"4 stars"
+        "reviews":"I had other people working on my home before. None do the job as proficient and well then this company for certain.",
+        "rating":"⭐⭐⭐⭐"
       },
       {
         "id": "4",
         "name": "Jonathan",
-        "reviews":"Also Test too about something to pass the time I need to see how it'll look with more words right now since it looks too small",
-        "rating":"5 stars"
+        "reviews":"There will never be a company like this one. I am beyond grateful for my friend recommendation for these people!",
+        "rating":"⭐⭐⭐⭐⭐"
 
       }
 

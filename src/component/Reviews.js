@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react"
 import {AiFillStar} from 'react-icons/ai'
+import {Rating} from "@mui/material";
 
 function Reviews(){
 const [review,setReview] = useState([]);
+
 
 
 
@@ -15,27 +17,33 @@ useEffect(()=>{
 },[])
 
 
-
+const updateRating = (commentId, newRating) => {
+    setReview(prevComments => prevComments.map(comment =>{
+        if(review.id === review.id){
+            return {...review, rating: newRating}
+        }
+        return comment;
+    }))
+}
 
 // spread operator  === "..."
 
 
  // ffc107 is going to be yellow color 
- const stars =[1,2,3,4,5];
+
 
     return(
-        <div className="bg-zinc-900 px-40 ">
+        <div className="bg-zinc-900 px-80 text-center">
             <h1 className="font-bold text-7xl text-gray-200 py-20">Our Reviews</h1>
+                <p className="font-bold text-4xl text-gray-200 py-20">Here are some of our Clients reviews about our work!</p>
             {review.map(reviews => ( 
-                <ul className="w-[394px] shadow-lg bg-gray-200 flex flex-wrap py-16  gap-x-12" key={reviews.id}>
+                <div className="w-[500px] shadow-lg bg-gray-200 flex flex-wrap py-14  gap-x-12 outline outline-2" key={reviews.id}>
                     <h2 className="font-bold text-2xl text-center border-b-2 border-zinc-900">{reviews.name}</h2>
                     <p className="text-lg italic">{reviews.reviews}</p>
-                    <p>{reviews.rating}</p>
-                </ul>
+                    <p className="text-lg">{reviews.rating}</p>
+                   
+                </div>
             ))}
-            
-          
-               
         </div>        
     )
 }
