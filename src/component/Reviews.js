@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
-import {AiFillStar} from 'react-icons/ai'
-import {Rating} from "@mui/material";
+
 
 function Reviews(){
 const [review,setReview] = useState([]);
@@ -17,14 +16,6 @@ useEffect(()=>{
 },[])
 
 
-const updateRating = (commentId, newRating) => {
-    setReview(prevComments => prevComments.map(comment =>{
-        if(review.id === review.id){
-            return {...review, rating: newRating}
-        }
-        return comment;
-    }))
-}
 
 // spread operator  === "..."
 
