@@ -17,9 +17,9 @@ function HomeRepair(){
 
 
     return(
-        <div className="bg-zinc-900 py-14 px-10 flex-wrap flex gap-x-10 ">
+        <div className="bg-zinc-900 py-20 px-10 flex-wrap flex gap-x-10 ">
             <h1 className="font-bold text-6xl h-20 text-gray-200">Why Choose Our Company For Your Home Repairs?</h1>
-            <p className="text-3xl h-32 text-gray-200">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
+            <p className="text-3xl h-32 text-gray-200 py-8">We value our work based on these 4 prinicples that ensures that our clients will recieve the best home repair that we can offer.</p>
             {repair.map(repaired => (
                 <div key={repaired.id} className=" w-[300px] shadow-lg bg-gray-200">
                     <img src={repaired.image} alt="nice"/>

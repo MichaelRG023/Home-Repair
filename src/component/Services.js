@@ -3,7 +3,7 @@ function Services(){
 
 
     return(
-        <div className="bg-slate-300 space-y-10 py-4 ">
+        <div className="bg-slate-300 space-y-14 py-4 ">
             
             <h1 className="font-bold text-6xl">Our Services</h1>
             <h2 className="font-bold text-4xl ">Carpentry </h2>
