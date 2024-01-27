@@ -14,9 +14,9 @@ function ProfessionalServices(){
 
     return(
         
-        <div className="bg-gray-300 py-16">
-           <h3 className="font-bold text-6xl">Meet Your Home Service Experts</h3>
-             <img className="max-w-full ms-auto absolute right-0 h-5/6 flex flex-row" src="https://le-cdn.hibuwebsites.com/64b7818a0493479cbd6724b436d6f79f/dms3rep/multi/opt/694903-1152w.jpg" alt="wrench being held" />          
+        <div className="bg-gray-300 py-20">
+           <h3 className="font-bold text-7xl">Meet Your Home Service Experts</h3>
+             <img className="max-w-full ms-auto absolute right-0 h-full max-h-max flex flex-row" src="https://le-cdn.hibuwebsites.com/64b7818a0493479cbd6724b436d6f79f/dms3rep/multi/opt/694903-1152w.jpg" alt="wrench being held" />          
            <ul className="w-6/12 text-sm font-medium text-gray-900 bg-gray-300  dark:bg-gray-700 dark:border-gray-600 dark:text-white ">
              <li className="border-gray-200 rounded-t-lg dark:border-gray-600">
                <div className="flex items-center ps-3">

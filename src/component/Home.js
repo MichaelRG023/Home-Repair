@@ -10,7 +10,7 @@ function Home() {
     }
 
     return(
-        <div className="bg-slate-300 py-16">      
+        <div className="bg-slate-300 py-12">      
             <h1 className="font-bold text-left text-7xl">
             Home Repair Service
              </h1>
@@ -22,7 +22,7 @@ function Home() {
            />
             <p className="text-4xl py-14"> Find amazing home repair services made for you. We'll connect you to our repair professionals. </p>
             
-                <button onClick={handleClick} className="h-14 px-10 m-8 text-lg text-black-500 transition-colors duration-150 bg-slate-600 rounded-lg focus:shadow-outline hover:bg-gray-400">
+                <button onClick={handleClick} className="h-20 px-14 m-8 text-lg text-black-500 transition-colors duration-150 bg-slate-600 rounded-lg focus:shadow-outline hover:bg-gray-400">
                     Contact Us 
                 </button>
                 
